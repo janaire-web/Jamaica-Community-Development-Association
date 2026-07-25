@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Jamaica Community Development Association</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+     <body>
+
+  <div class="menu">
+    <header>
+         
+         <nav class="nav">        
+    
+        
+        <ul>
+        
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+             <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+ 
+
+
+</header>
+
+ <main style="padding: 40px;">
+     <div class="contact-info">
+    <h2 style="font-size:140%; margin-bottom:15px;"> Get In Touch!</h2>
+
+    <p style="margin-bottom:8px;"><strong>Location:</strong>15A Bercombe Close, Kingston 44</p>
+    <p style="margin-bottom: 8px;"><strong>Phone:</strong> (658) 777-7777</p>
+    <p style="margin-bottom:25px;"><strong>Email:</strong>info@jcda.org</p>
+
+ </div>
+<form id="contactform" onsubmit="return validateForm();">
+
+</form>
+ <section class="card">
+
+           <div class="container">
+
+
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Your full name...">
+        <span id="fullname-error" class="error"></span>
+
+        <label for="lname">Email</label>
+        <input type="text" id="email" placeholder="Your email...">
+        <span id="email-error" class="error"></span>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject">
+        <span id="subject-error" class="error"></span>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write message..." style="height:200px"></textarea>
+        <span id="message-error" class="error"></span>
+    
+        <input type="submit" value="Submit">
+    </form>
+ </div>
+
+          </main>
+          </div>
+
+           <footer>
+        <p>&copy;Jamaica Community Development Association. JCDA. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>
+
+         
+          
+
 
