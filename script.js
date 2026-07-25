@@ -43,9 +43,29 @@ function validateForm(){
     }
 }
 
+if (isValid) {
+    alert("Form submitted succesfully!");
+    document.getElementById("contactform").reset();
+    return true;
+}
+return false;
+
+
 function resetErrors() {
     document.getElementById("fullname-error").textContent = "";
     document.getElementById("email-error").textContent="";
     document.getElementById("subject-error").textContent="";
     document.getElementById("agree-error").textContent="";
+}
+
+function filterGallery(category){
+    const items =document.querySelectorAll('.gallery-item');
+
+    items.forEach(item =>{
+        if (category==='all' || item.classList.contains(category)){
+            item.computedStyleMap.display='block';
+        }else {
+            item.computedStyleMap.display='none';
+        }
+    });
 }
