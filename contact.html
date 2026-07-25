@@ -1,50 +1,43 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Jamaica Community Development Association</title>
           <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<body>  
+    <header>
+        <img src="image/JCDALogo.png" class="logo"> <br>
+        <h1>Jamaica Community Development Association JCDA</h1>
+    </header>
+
 </head>
      <body>
-
-  <div class="menu">
-    <header>
          
-         <nav class="nav">        
+         <nav class="navbar">        
     
-        
         <ul>
         
             <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about_us.html">About</a></li>
              <li><a href="events.html">Events</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+</hr>
  
 
 
 </header>
 
- <main style="padding: 40px;">
-     <div class="contact-info">
-    <h2 style="font-size:140%; margin-bottom:15px;"> Get In Touch!</h2>
-
-    <p style="margin-bottom:8px;"><strong>Location:</strong>15A Bercombe Close, Kingston 44</p>
-    <p style="margin-bottom: 8px;"><strong>Phone:</strong> (658) 777-7777</p>
-    <p style="margin-bottom:25px;"><strong>Email:</strong>info@jcda.org</p>
-
- </div>
-<form id="contactform" onsubmit="return validateForm();">
-
-</form>
- <section class="card">
-
-           <div class="container">
-
-
+ <main class="contact-main">
+    <h4 style="font-size:140%; margin-bottom:15px;"> GET IN TOUCH WITH US</h4>
+  
+    <div class="form-container">
+<form id="contactform" onsubmit="return validateForm(event);">
         <label for="fullname">Full Name</label>
         <input type="text" id="fullname" placeholder="Your full name...">
         <span id="fullname-error" class="error"></span>
@@ -68,9 +61,10 @@
           </main>
           </div>
 
-           <footer>
-        <p>&copy;Jamaica Community Development Association. JCDA. All rights reserved.</p>
-    </footer>
+           <hr>
+    author: JCDA<br>
+    &copy; copyright reserve<br>
+</footer>
 
     <script src="script.js"></script>
 
