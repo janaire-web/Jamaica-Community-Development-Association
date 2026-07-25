@@ -195,6 +195,11 @@ input[type=submit]:hover{
   border-radius:4px;
 }
 
+.filter-btn:hover{
+  background-color:rgb(32,94,74);
+  color:white;
+}
+
 .gallery-grid{
   display:flex;
   flex-wrap:wrap;
