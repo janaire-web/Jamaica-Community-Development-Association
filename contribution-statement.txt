@@ -1,0 +1,10 @@
+Contribution Statement
+Kimoya Thompson 
+Student ID #20256834
+
+Designed the Logo for the webpage. Created the Home, About Us, Events Page, and CSS style. Made adjustments to the webpage where necessary.
+Janaire Thompson 
+Student ID #20234475
+
+Created the Projects/Gallery Page, Contact Page, JavaScript for the contact form, and gallery filtering. Made adjustments to the CSS Style to maintain consistency for both parts and design.
+
